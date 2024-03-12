@@ -1,0 +1,26 @@
+{
+  "name": "example-with-tailwindcss",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "generate:types": "npx tsx ./src/lib/api/generate-api-types.ts"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.13.0",
+    "@solidjs/start": "^0.7.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "solid-js": "^1.8.15",
+    "tailwindcss": "^3.3.3",
+    "vinxi": "^0.3.10"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "openapi-typescript": "^7.0.0-next.8"
+  }
+}
